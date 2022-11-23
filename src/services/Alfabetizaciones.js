@@ -1,4 +1,4 @@
-import { API_URL } from './ApiUrl';
+const API_URL = 'https://systemica.herokuapp.com';
 const API_PATH = '/alfabetizaciones';
 
 export const createAlfabetizacion = async (alfabetizacion, token) => {

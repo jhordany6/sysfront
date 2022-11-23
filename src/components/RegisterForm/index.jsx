@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { useField } from '../../hooks/useField';
 import { useNotification } from '../../hooks/useNotification';
 import { useUsuarios } from '../../hooks/useUsuarios';
-import { createUsuario } from '../../services/usuarios';
+import { createUsuario } from '../../services/Usuarios';
 import { email as emailRegExp, password as passRegExp, username as usernameRegExp } from '../../utils/regexPatterns';
 import InputLabel from '../Input/InputLabel';
 import Select from '../Select';
